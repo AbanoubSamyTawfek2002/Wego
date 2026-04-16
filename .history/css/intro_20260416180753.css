@@ -1173,3 +1173,84 @@ button:active {
   box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
   transform: translate(0.1em, 0.1em);
 }
+
+/* تحسين عام للموبايل */
+@media (max-width: 768px) {
+  /* navbar */
+  .img-nav {
+    width: 120px;
+  }
+
+  /* section 1 (hero) */
+  .page-1 h1 {
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  /* icons section */
+  .page-2 .row {
+    padding: 0 !important;
+  }
+
+  .page-2-div-1 {
+    margin-bottom: 20px;
+  }
+
+  /* stories cards */
+  .cards-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+  }
+
+  .wego-card {
+    min-width: 250px;
+  }
+
+  /* flights logos */
+  #flights .col-4 {
+    width: 50%;
+  }
+
+  /* partners */
+  #companys .col-6 {
+    width: 50%;
+  }
+
+  /* cards (hotels) */
+  .card {
+    margin-bottom: 20px;
+  }
+
+  /* carousel buttons */
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  /* trip section */
+  #trip .services-article {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #trip .left-1,
+  #trip .left-2,
+  #trip .left-3,
+  #trip .left-4,
+  #trip .left-5,
+  #trip .left-6,
+  #trip .left-7,
+  #trip .left-8,
+  #trip .left-9,
+  #trip .left-10,
+  #trip .left-11 {
+    width: 100%;
+    height: 120px;
+  }
+
+  /* buttons */
+  .btn {
+    width: 100%;
+  }
+}
